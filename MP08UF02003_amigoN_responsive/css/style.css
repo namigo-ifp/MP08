@@ -1,0 +1,83 @@
+:root {
+    --colorT: #FFFFFF;
+    --color0: #7A9CC6;
+    --color1: #BDE4A7;
+    --color2: #B3D2B2;
+    --color3: #9FBBCC;
+}
+
+@font-face {
+    font-family: 'Western Bang Bang';
+    src: url('../fonts/BangBang/WesternBangBang.eot');
+    src: url('../fonts/BangBang/WesternBangBang.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BangBang/WesternBangBang.woff2') format('woff2'),
+        url('../fonts/BangBang/WesternBangBang.woff') format('woff'),
+        url('../fonts/BangBang/WesternBangBang.ttf') format('truetype'),
+        url('../fonts/BangBang/WesternBangBang.svg#WesternBangBang') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-family: 'Western Bang Bang';
+    font-weight: normal;
+    font-style: normal;
+    color: var(--colorT);
+}
+
+p {
+    padding: 1rem;
+    background: var(--color0);
+    cursor: zoom-in;
+    color: var(--colorT);
+}
+
+@media screen and (max-width: 480px) {
+
+        /* aquí va el disseny per smartphone */
+
+        body {
+            background: var(--color1);
+        }
+
+        h1 {
+            font-size: 1rem;
+        }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1279px) {
+
+        /* aquí va el disseny per tablet */
+
+        body {
+            background: var(--color2);
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+    /* aquí va el disseny per ordinador */
+
+    body {
+        background: var(--color3);
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    p {
+        columns: 2;
+    }
+
+}
+

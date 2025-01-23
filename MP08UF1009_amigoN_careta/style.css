@@ -1,0 +1,337 @@
+* {
+    position: relative;
+}
+
+.cap {
+    width: 700px;
+    height: 1150px;
+    background: transparent;
+    margin: 0 auto;
+}
+
+body {
+    margin-top: 40px;
+}
+
+.cabell {
+    width: 717px;
+    height: 920px;
+    background: #4b2b09;
+    margin: 0 auto;
+    border-radius: 38% 38% 0 0;
+}
+
+.serrell1 {
+    width: 80px;
+    height: 90px;
+    border-radius: 0 0 100% 0;
+    background: #4b2b09;
+    top: 87px;
+    left: 300px;
+    float: left;
+    position: absolute;
+}
+
+.serrell2 {
+    width: 80px;
+    height: 90px;
+    border-radius: 0 0 0 100%;
+    background: #4b2b09;
+    top: 90px;
+    right: 260px;
+    float: right;
+    position: absolute;
+}
+
+.serrell3 {
+    width: 200px;
+    height: 700px;
+    border-radius: 100% / 40% 40% 110% 120%;
+    background-color: #4b2b09;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+
+.forma1 {
+    width: 200px;
+    height: 140px;
+    border-radius: 5% 5% 5% 5%;
+    background: #4b2b09;
+    position: absolute;
+    top: -5px;
+    left: 50px;
+}
+
+.forma2 {
+    width: 345px;
+    height: 560px;
+    border-radius: 100% / 100% 100% 70% 70%;
+    background: #fedfce;
+    position: absolute;
+    top: 86px;
+    left: 65px;
+}
+
+.serrell4 {
+    width: 200px;
+    height: 700px;
+    border-radius: 100% / 40% 40% 110% 120%;
+    background-color: #4b2b09;
+    position: absolute;
+    top: 90px;
+    left: 450px;
+}
+
+.forma3 {
+    width: 200px;
+    height: 140px;
+    border-radius: 5% 5% 5% 5%;
+    background: #4b2b09;
+    position: absolute;
+    top: -5px;
+    left: -25px;
+}
+
+.forma4 {
+    width: 345px;
+    height: 560px;
+    border-radius: 100% / 100% 100% 70% 70%;
+    background: #fedfce;
+    position: absolute;
+    top: 86px;
+    left: -205px;
+}
+
+.front {
+    width: 545px;
+    height: 230px;
+    background: #fedfce;
+    top: 38px;
+    left: 12px;
+}
+
+.cicatriu {
+    width: 30px;
+    height: 30px;
+    background: #e9c6b4;
+    border-radius: 100px 0px;
+    transform: rotate(135deg);
+    overflow: hidden;
+    filter: blur(0.5px);
+    z-index: 1;
+    top: 115px;
+    left: 350px;
+}
+
+.linia1 {
+    width: 30px;
+    height: 5px;
+    background: #e0bcaa;
+    transform: rotate(45deg);
+    left: -5px;
+    top: 18px;
+    filter: blur(1px);
+}
+
+.linia2 {
+    width: 30px;
+    height: 5px;
+    background: #e0bcaa;
+    transform: rotate(45deg);
+    bottom: 2px;
+    filter: blur(1px);
+}
+
+.celles {
+    width: 500px;
+    height: 40px;
+    background: transparent;
+    top: 145px;
+    z-index: 2;
+    margin: 0 auto;
+}
+
+.cella1 {
+    width: 135px;
+    height: 50px;
+    background: transparent;
+    top: 2px;
+    left: 70px;
+    border-radius: 50%;
+    border-top: solid 17px #4b2b09;
+    transform: rotate(3deg);
+    float: left;
+}
+
+.cella2 {
+    width: 135px;
+    height: 50px;
+    background: transparent;
+    border-radius: 50%;
+    border-top: solid 17px #4b2b09;
+    transform: rotate(-3deg);
+    left: 293px;
+}
+
+.mirada {
+    height: 70px;
+    text-align: center;
+    background: transparent;
+    z-index: 3;
+    top: 40px;
+}
+
+.mirada .ull{
+    height: 85px;
+    width: 100px;
+    background: white;
+    display: inline-block;
+    margin: -7px 60px;
+    overflow: hidden;
+}
+
+.uEsq {
+    border-radius: 100px 10px;
+    box-shadow: inset 10px -6px 10px gray;
+    transform: rotate(45deg);
+    box-shadow: -4px -4px 0px #c99f8b;
+}
+
+.uDre {
+    border-radius: 100px 10px;
+    box-shadow: inset -5px 6px 10px gray;
+    transform: rotate(35deg);
+    box-shadow: -4px -4px 0px #c99f8b;
+}
+
+.mirada .ull .iris {
+    height: 65px;
+    width: 65px;
+    background: rgb(97, 38, 11);
+    border-radius: 50%;
+    top: 6px;
+    left: 17px;
+}
+
+.pupila {
+    width: 25px;
+    height: 25px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    margin: 0 auto;
+    top: 20px;
+    left: 20px;
+}
+
+.brillantor {
+    width: 27px;
+    height: 27px;
+    background: white;
+    border-radius: 50%;
+    left: 20px;
+    position: absolute;
+}
+
+.nas {
+    width: 105px;
+    height: 130px;
+    background: transparent;
+    z-index: 4;
+    margin: 0 auto;
+    top: 40px;
+}
+
+.nForma1 {
+    width: 30px;
+    height: 32px;
+    background: transparent;
+    border-radius: 50%;
+    top: 97px;
+    box-shadow: -2px 2px 0px #d4a992;
+}
+
+.nForma2 {
+    width: 52px;
+    height: 40px;
+    background: transparent;
+    border-radius: 50%;
+    left: 26px;
+    top: 67px;
+    box-shadow: 0px 2px 0px #d4a992;
+}
+
+.nForma3 {
+    width: 30px;
+    height: 32px;
+    background: transparent;
+    border-radius: 50%;
+    top: 25px;
+    left: 75px;
+    box-shadow: 2px 2px 0px #d4a992;
+}
+
+.lunar {
+    width: 7px;
+    height: 7px;
+    background-color: #502006;
+    border-radius: 50%;
+    z-index: 8;
+    left: 365px;
+    top: -50px;
+}
+
+.boca {
+    width: 60px;
+    height: 150px;
+    background: transparent;
+    border-radius: 50%;
+    z-index: 7;
+    margin: 0 auto;
+    transform: rotate(90deg);
+    box-shadow: 4px 0px 0px black;
+    top: 17px;
+    animation: boca 4s infinite linear;
+}
+
+@keyframes boca {
+    0% {box-shadow: 4px 0px 0px black;}
+
+    25% {box-shadow: 8px 0px 0px black}
+
+    50% {box-shadow: 15px 0px 0px rgb(78, 0, 0);}
+
+    75% {box-shadow: 8px 0px 0px black}
+
+    100% {box-shadow: 4px 0px 0px black;}
+}
+
+.cara {
+    width: 565px;
+    height: 664px;
+    background: #fedfce;
+    border-radius: 100% / 80% 80% 140% 140%;
+    margin: 0 auto;
+    bottom: 825px;
+}
+
+.coll {
+    width: 250px;
+    height: 140px;
+    background: #f0ccba;
+    position: absolute;
+    top: 700px;
+    left: 220px;
+}
+
+.cos {
+    width: 970px;
+    height: 320px;
+    background: rgb(6, 73, 173);
+    position: absolute;
+    top: 830px;
+    left: -135px;
+    border-radius: 50% 50% 0% 0%;
+}
