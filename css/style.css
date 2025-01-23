@@ -133,6 +133,7 @@ h1 {
 
 .p2 h2 {
     top: 10%;
+    text-align: center;
 }
 
 .p2 ul {
@@ -143,8 +144,8 @@ h1 {
 
 .p2 li {
     display: block;
-    width: 210px;
-    height: 210px;
+    width: 200px;
+    height: 200px;
     border-radius: 20%;
     float: left;
     background-color: red;
@@ -153,7 +154,7 @@ h1 {
     color: white;
     font-weight: 600;
     font-size: 30px;
-    margin: 35px;
+    margin: 35px 55px;
     transition: 2s;
     font-family: "Blinker", sans-serif;
     font-style: normal;
@@ -171,7 +172,7 @@ h1 {
     background-image: url(../img/calendario.jpeg);
     background-size: 250%;
     background-repeat: no-repeat;
-    background-position: -305px 0px;
+    background-position: -297px 0px;
 }
 
 .feedly {
@@ -274,7 +275,7 @@ h2 {
     height: 60px;
     border-radius: 20%;
     float: left;
-    background-color: red;
+    background-color: transparent;
     margin: 50px 160px;
     transition: 2s;
     transform: translate(30%, 400%);
@@ -282,7 +283,7 @@ h2 {
 
 .p3 li {
     display: block;
-    margin: 17px 100px;
+    margin: 19px 90px;
     color: white;
     font-weight: 600;
     font-size: 20px;
@@ -293,28 +294,42 @@ h2 {
 
 .correu {
     background-image: url(../img/logo_correu.png);
-    background-size: cover;
-    background-position: 0px -10px;
+    background-size: 70px;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
 .instagram {
     background-image: url(../img/logo_instagram.png);
-    background-size: 65px;
+    background-size: 60px;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .facebook {
-    background-image: url(../img/logo_instagram.png);
-    background-size: 50px;
+    background-image: url(../img/logo_facebook.png);
+    background-size: 55px;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .twitter {
     background-image: url(../img/logo_twitter.png);
-    background-size: 50px;
+    background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.linkedin {
+    background-image: url(../img/logo_linkedin.png);
+    background-size: 55px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.behance {
+    background-image: url(../img/logo_behance.png);
+    background-size: 60px;
     background-position: center;
     background-repeat: no-repeat;
 }
