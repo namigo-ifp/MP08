@@ -371,6 +371,154 @@ h2 {
 }
 
 
+@media screen and (max-width: 1279px) {
+
+    /* aquí va el disseny per tablet */
+
+    h1 {
+        font-size: 6rem;
+        top: 16%
+    }
+
+    .intro {
+        width: 76%;
+        font-size: 1.2rem;
+        top: 28%;
+    }
+
+    .intro2 {
+        width: 76%;
+        padding-top: 100px;
+        font-size: 1.2rem;
+        top: 36%;
+    }
+
+    .p1 h2 {
+        font-size: 10rem;
+        top: 61%;
+    }
+
+    .gatet {
+        width: 100%;
+        height: 170px;
+        background-size: 160px;
+        top: 76%;
+    }
+
+    .p2 h2 {
+        font-size: 6rem;
+        top: 100px;
+    }
+
+    .p2 ul {
+        width: 900px;
+        margin: 0 auto;
+        padding-top: 110px;
+    }
+
+    .p2 li {
+        width: 170px;
+        height: 170px;
+        line-height: 24.2rem;
+        font-weight: 600;
+        font-size: 1.6rem;
+        margin: 40px 43px;
+    }
+
+    .calendari {
+        background-position: -155px 0px;
+    }
+
+    .feedly {
+        background-image: url(../img/feedly.jpg);
+        background-size: cover;
+        background-position: -35px 0px;
+    }
+
+    .flotacions {
+        background-image: url(../img/flotacions.jpg);
+        background-size: cover;
+        background-position: -20px 0;
+    }
+
+    .escacs {
+        background-image: url(../img/ajedrez.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: -30px 0px;
+    }
+
+    .watchmen {
+        background-image: url(../img/watchmen.jpg);
+        background-size: 110%;
+        background-position: center;
+    }
+
+    .ifpagram {
+        background-image: url(../img/ifpagram.jpeg);
+        background-size: cover;
+    }
+
+    .floreta {
+        background-image: url(../img/floreta.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .careta {
+        background-image: url(../img/careta.jpg);
+        background-size: cover;
+        background-position: 10px -25px;
+    }
+
+    h2 {
+        font-size: 3.9rem;
+        top: 21%;
+    }
+
+    .p3 ul {
+        width: 500px;
+        margin: 0 auto;
+        padding-top: 110px;
+    }
+    
+    .p3 div {
+        width: 60px;
+        height: 40px;
+        margin: 30px 100px;
+    }
+    
+    .p3 li {
+        margin: 10px 75px;
+        font-size: 1rem;
+    }
+
+    .correu {
+        background-size: cover;
+    }
+
+    .instagram {
+        background-size: 50px;
+    }
+    
+    .facebook {
+        background-size: 45px;
+    }
+    
+    .twitter {
+        background-size: 35px;
+    }
+    
+    .linkedin {
+        background-size: 45px;
+    }
+    
+    .behance {
+        background-size: 50px;
+    }
+}
+
+
 @media screen and (max-width: 720px) {
 
     /* aquí va el disseny per el meu mòbil */
