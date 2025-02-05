@@ -371,7 +371,7 @@ h2 {
 }
 
 
-@media screen and (max-width: 1279px) {
+@media screen and (min-width: 721px) and (max-width: 1279px) {
 
     /* aquí va el disseny per tablet */
 
@@ -472,49 +472,49 @@ h2 {
     }
 
     h2 {
-        font-size: 3.9rem;
-        top: 21%;
+        font-size: 6rem;
+        top: 250px;
     }
 
     .p3 ul {
-        width: 500px;
-        margin: 0 auto;
-        padding-top: 110px;
+        width: 700px;
+        padding-top: 130px;
+        margin: -70px 0px 0px 10px;
     }
     
     .p3 div {
-        width: 60px;
-        height: 40px;
-        margin: 30px 100px;
+        width: 80px;
+        height: 60px;
+        margin: 28px 168px;
     }
     
     .p3 li {
-        margin: 10px 75px;
-        font-size: 1rem;
+        margin: 13px 88px;
+        font-size: 1.7rem;
     }
 
     .correu {
-        background-size: cover;
+        background-size: 75px;
     }
 
     .instagram {
-        background-size: 50px;
+        background-size: 65px;
     }
     
     .facebook {
-        background-size: 45px;
+        background-size: 55px;
     }
     
     .twitter {
-        background-size: 35px;
-    }
-    
-    .linkedin {
         background-size: 45px;
     }
     
+    .linkedin {
+        background-size: 55px;
+    }
+    
     .behance {
-        background-size: 50px;
+        background-size: 60px;
     }
 }
 
