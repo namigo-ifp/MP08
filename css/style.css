@@ -587,9 +587,75 @@ h2 {
     }
 
     .calendari {
-        background-size: 270%;
+        background-size: 290%;
+        background-position: -135px 0px;
+    }
+
+    .feedly {
+        background-position: -30px 0px;
+    }
+
+    .flotacions {
+        background-position: -15px 0;
+    }
+
+    .escacs {
+        background-image: url(../img/ajedrez.jpeg);
+        background-size: cover;
         background-repeat: no-repeat;
-        background-position: -155px 0px;
+        background-position: -32px 0px;
+    }
+
+    .careta {
+        background-image: url(../img/careta.jpg);
+        background-size: cover;
+        background-position: 5px -20px;
+    }
+
+    h2 {
+        font-size: 3.7rem;
+        top: 18%;
+    }
+
+    .p3 ul {
+        width: 200px;
+        margin: 40px;
+        padding-top: 80px;
+    }
+
+    .p3 div {
+        width: 50px;
+        height: 30px;
+        margin: 20px 30px;
+    }
+    
+    .p3 li {
+        margin: 5px 65px;
+        font-size: 1rem;
+    }
+
+    .correu {
+        background-size: 45px;
+    }
+
+    .instagram {
+        background-size: 40px;
+    }
+    
+    .facebook {
+        background-size: 33px;
+    }
+    
+    .twitter {
+        background-size: 25px;
+    }
+    
+    .linkedin {
+        background-size: 35px;
+    }
+    
+    .behance {
+        background-size: 40px;
     }
 }
 
@@ -668,57 +734,45 @@ h2 {
     }
 
     .inici {
-        background-image: url(../img/inici.jpg);
         background-size: cover;
-        background-repeat: no-repeat;
         background-position: 0px 0px;
     }
 
     .calendari {
-        background-image: url(../img/calendario.jpeg);
         background-size: 270%;
-        background-repeat: no-repeat;
         background-position: -155px 0px;
     }
 
     .feedly {
-        background-image: url(../img/feedly.jpg);
         background-size: cover;
         background-position: -35px 0px;
     }
 
     .flotacions {
-        background-image: url(../img/flotacions.jpg);
         background-size: cover;
         background-position: -20px 0;
     }
 
     .escacs {
-        background-image: url(../img/ajedrez.jpeg);
         background-size: cover;
-        background-repeat: no-repeat;
         background-position: -30px 0px;
     }
 
     .watchmen {
-        background-image: url(../img/watchmen.jpg);
         background-size: 110%;
         background-position: center;
     }
 
     .ifpagram {
-        background-image: url(../img/ifpagram.jpeg);
         background-size: cover;
     }
 
     .floreta {
-        background-image: url(../img/floreta.jpg);
         background-size: cover;
         background-position: center;
     }
     
     .careta {
-        background-image: url(../img/careta.jpg);
         background-size: cover;
         background-position: 10px -25px;
     }
