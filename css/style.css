@@ -26,6 +26,10 @@ nav {
     text-align: right;
 }
 
+nav li:hover {
+    opacity: 80%;
+}
+
 .nom {
     text-align: left;
     margin: 0 20px;
@@ -190,10 +194,9 @@ h1 {
     font-weight: 600;
     font-size: 1.7rem;
     margin: 35px 55px;
-    transition: 2s;
     font-family: "Blinker", sans-serif;
     font-style: normal;
-    transform: translateY(55%);
+    transform: translate(50%, 50%);
 }
 
 .inici {
@@ -253,7 +256,7 @@ h1 {
 }
 
 .p2 li:hover {
-    animation: 1s rebotar linear 3;
+    opacity: 80%;
 }
 
 @keyframes rebotar {
@@ -325,6 +328,10 @@ h2 {
     font-family: "Blinker", sans-serif;
     font-style: normal;
     white-space: nowrap;
+}
+
+.p3 li:hover {
+    opacity: 80%;
 }
 
 .correu {
@@ -425,49 +432,43 @@ h2 {
     }
 
     .calendari {
-        background-position: -155px 0px;
+        background-position: -340px 0px;
+        background-size: 600px;
     }
 
     .feedly {
-        background-image: url(../img/feedly.jpg);
         background-size: cover;
-        background-position: -35px 0px;
+        background-position: -60px 0px;
     }
 
     .flotacions {
-        background-image: url(../img/flotacions.jpg);
         background-size: cover;
         background-position: -20px 0;
     }
 
     .escacs {
-        background-image: url(../img/ajedrez.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: -30px 0px;
     }
 
     .watchmen {
-        background-image: url(../img/watchmen.jpg);
         background-size: 110%;
         background-position: center;
     }
 
     .ifpagram {
-        background-image: url(../img/ifpagram.jpeg);
         background-size: cover;
     }
 
     .floreta {
-        background-image: url(../img/floreta.jpg);
         background-size: cover;
         background-position: center;
     }
     
     .careta {
-        background-image: url(../img/careta.jpg);
         background-size: cover;
-        background-position: 10px -25px;
+        background-position: 15px -35px;
     }
 
     h2 {
